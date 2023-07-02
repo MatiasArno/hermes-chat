@@ -1,0 +1,32 @@
+{
+	"name": "hermes-chat-v2",
+	"version": "2.0.0",
+	"description": "A simple spa for online texting",
+	"main": "index.js",
+	"scripts": {
+		"dev": "parcel serve ./src/index.html",
+		"build": "parcel build ./src/index.html"
+	},
+	"keywords": [
+		"chat",
+		"online",
+		"texting",
+		"text",
+		"spa",
+		"reactive",
+		"web"
+	],
+	"author": "Arno",
+	"license": "ISC",
+	"homepage": "",
+	"devDependencies": {
+		"@types/node": "^18.16.1",
+		"parcel": "^2.8.3",
+		"process": "^0.11.10",
+		"typescript": "^5.0.4"
+	},
+	"dependencies": {
+		"@vaadin/router": "^1.7.5",
+		"firebase": "^8.7.1"
+	}
+}
